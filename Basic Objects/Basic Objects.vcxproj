@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Object Orientated\OOP\OOP\ProgrammingBasics.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Object Orientated\OOP\OOP\casType.h" />
+    <ClInclude Include="..\..\..\Object Orientated\OOP\OOP\userMenu.h" />
+    <ClInclude Include="..\..\..\Object Orientated\OOP\OOP\varType.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C1BD0DAB-CFE1-4B30-A54A-D18E36ACA029}</ProjectGuid>
@@ -138,8 +146,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
